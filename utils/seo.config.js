@@ -1,5 +1,4 @@
 export default {
-  defaultTitle: "Template | Next - Tailwind - Framer Motion",
   description:
     "An unopinionated Next.js template configured with Tailwind & Framer Motion.",
   titleTemplate: "%s | Next - Tailwind - Framer Motion",
