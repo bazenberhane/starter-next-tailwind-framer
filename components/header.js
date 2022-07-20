@@ -1,6 +1,5 @@
 import FullLink from "./fullLink";
 import Container from "./container";
-import SocialBar from "./socialBar";
 
 const Header = () => {
   return (

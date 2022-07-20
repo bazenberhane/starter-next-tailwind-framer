@@ -5,7 +5,7 @@ import Footer from "../components/footer";
 import { LazyMotion, domAnimation, m } from "framer-motion";
 import { NextSeo } from "next-seo";
 import { pageFade } from "../utils/transitions.js";
-import SocialBar from "../components/socialBar";
+
 export default function Home() {
   return (
     <Layout>
@@ -24,7 +24,7 @@ export default function Home() {
 
               <div className="space-y-4 max-w-3xl">
                 <h2 className="text-xl">
-                  What is{" "}
+                  What&apos;s{" "}
                   <span className="italic underline underline-offset-4 decoration-wavy">
                     Lorem Ipsum?
                   </span>
@@ -52,7 +52,6 @@ export default function Home() {
         </Container>
       </LazyMotion>
       <Footer />
-      <SocialBar />
     </Layout>
   );
 }
