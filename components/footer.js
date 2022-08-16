@@ -1,10 +1,13 @@
-import Container from "./container";
-import FullLink from "./fullLink";
+import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
-    <footer>
-      <Container styles="footer">
+    <footer className="absolute bottom-0 px-4 py-8">
+      <motion.div
+        initial={{ opacity: 0, x: 100 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.4, ease: "easeInOut" }}
+      >
         <span className="footer-item">
           Starter by{" "}
           <a
@@ -32,7 +35,7 @@ const Footer = () => {
         >
           Twitter
         </a>
-      </Container>
+      </motion.div>
     </footer>
   );
 };

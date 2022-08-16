@@ -1,11 +1,8 @@
-export const pageFade = {
-  hidden: { opacity: 0 },
+export const headerEnter = {
+  hidden: { opacity: 0, y: -100 },
   visible: {
     opacity: 1,
-    transition: { duration: 0.8, ease: "easeInOut" },
-  },
-  exit: {
-    opacity: 0,
-    transition: { duration: 0.8, ease: "easeInOut" },
+    y: 0,
+    transition: { delay: 0.6, duration: 0.8, ease: "easeInOut" },
   },
 };
